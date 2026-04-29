@@ -1,0 +1,71 @@
+{
+  "name": "devscribe",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["introduction"]
+          },
+          {
+            "group": "Quickstart",
+            "pages": [
+              "quickstart/guide",
+              "quickstart/docs-json",
+              {
+                "dropdown": "Dropdown Example",
+                "pages": [
+                  "quickstart/dropdown-doc-a",
+                  "quickstart/dropdown-doc-b"
+                ],
+                "defaultOpen": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API Documentation",
+            "pages": ["api-reference/introduction"]
+          },
+          {
+            "group": "Endpoints",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/post",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/put"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "external": true,
+        "url": "/changelog"
+      }
+    ],
+
+    "global": {
+      "anchors": []
+    },
+
+    "changelogCategories": ["improvement", "release"],
+
+    "buttons": [
+      {
+        "label": "Button 1",
+        "href": "/"
+      },
+      {
+        "label": "Button 2",
+        "href": "/"
+      }
+    ]
+  }
+}
